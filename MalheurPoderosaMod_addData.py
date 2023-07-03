@@ -120,5 +120,6 @@ def MalheurPoderosaModaddData():
 
 if __name__ == '__main__':
     # Global Environment settings
-    with arcpy.EnvManager(scratchWorkspace="D:\\Wild\\Wild.gdb", workspace="D:\\Wild\\Wild.gdb"):
+    with arcpy.EnvManager(scratchWorkspace="D:\\Wild\\Wild.gdb", 
+    workspace="D:\\Wild\\Wild.gdb"):
         MalheurPoderosaModaddData()
